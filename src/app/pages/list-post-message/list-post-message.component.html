@@ -1,1 +1,13 @@
-<p>list-post-message works!</p>
+<div class="container">
+  <div class="header">
+    <div class="title-app">DropMessage</div>
+  </div>
+
+  <div class="wrapp-carousel">
+    <div class="list-post-message">
+      <div class="user-post-image" *ngFor="let slide of slides">
+        <img [src]="slide.img" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
